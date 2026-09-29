@@ -1,0 +1,6 @@
+venv/
+warehouse/
+checkpoints/
+*.swp
+*.swo
+__pycache__/
