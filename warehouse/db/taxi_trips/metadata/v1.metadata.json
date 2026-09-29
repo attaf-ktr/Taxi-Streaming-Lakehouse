@@ -1,0 +1,65 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "85f10c9d-1d45-4e38-a762-43886ad73523",
+  "location" : "file:///home/kaoutar/projects/streaming-lakehouse/warehouse/db/taxi_trips",
+  "last-sequence-number" : 0,
+  "last-updated-ms" : 1790715672112,
+  "last-column-id" : 6,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "trip_id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "vendor_id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 3,
+      "name" : "pickup_datetime",
+      "required" : false,
+      "type" : "timestamptz"
+    }, {
+      "id" : 4,
+      "name" : "passenger_count",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 5,
+      "name" : "trip_distance",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 6,
+      "name" : "total_amount",
+      "required" : false,
+      "type" : "double"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "kaoutar",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : -1,
+  "refs" : { },
+  "snapshots" : [ ],
+  "statistics" : [ ],
+  "snapshot-log" : [ ],
+  "metadata-log" : [ ]
+}
